@@ -15,6 +15,7 @@ Class myclass{
 		}
 }
 ```
+Here public is an **access specifier** which means that everything inside it can be accessed by every function in the program. We will see private which can be  accessed only by the functions of the class. There is another access specifier which is called protected which can be accessed by inherited classes ( [[#Inheritance]] ).
 
 In class constructors we can initialize a variable that is const or not:
 ```c++  
@@ -28,6 +29,19 @@ Class myclass{
 		{ 
 		// code with a
 		}
+	private:
+		const int value 
+}
+```
+
+Likewise we can also have destructors. Destructors are members of class that are called when an oject of that class is going to be destroyed:
+```c++
+Class myclass{
+	public:
+		myclass(){ /*code*/ } // constructor
+		myclass(int a) : value {a} { /*code*/ } // constructor
+		~myclass(){ /*code*/ } // destructor
+	
 	private:
 		const int value 
 }
@@ -142,4 +156,44 @@ template <class type> myclass{
 ```
 For more see [[Templates]]
 
+Static variables are variables that are not object specific and belong to a class. Thus only one copy of a static variable is created. This can be useful when you want to count number of objects belonging to a class:
+```c++
+class myclass{
+	static int count;
+public:
+	myclass(){
+		count++;
+	}
+	~myclass(){
+		count--;
+	}
+};
+
+int count; //IMPORTANT NOTE! static variables have to be redeclared in the program
+```
+
+When a function is declared inside of a class, it's considered to be an *inline function*. Inline functions are like macros in c++ but in funciton form. They just replace the code:
+```c++
+class myclass{
+	int a;
+public:
+	void get_data(){ std::cout << a << std::endl; } // an inline function
+};
+
+int main(){
+	myclass x;
+	x.get_data();
+	// same as 
+	std::cout << x.a << endl;
+	return 0;
+}
+```
+
 ## Inheritance
+Inheritance is one of the most esseential part of OOP. It allows the creation of hierarchical classifications. A class that is inherited is called *base class*, and the class inherits is called *derived class*. 
+General form of class inheritance:
+```c++
+class derived : public/private/protected base{
+//code
+};
+```

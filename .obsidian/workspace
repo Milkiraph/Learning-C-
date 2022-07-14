@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b4f21d676f5027f7",
@@ -128,7 +129,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b88cb55da20542bc",
+  "active": "6176d6e55bb58bf5",
   "lastOpenFiles": [
     "Templates.md",
     "OOP.md",
