@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OOP.md",
+            "file": "Containers.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b4f21d676f5027f7",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP.md",
+                "file": "Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP.md",
+                "file": "Containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP.md"
+                "file": "Containers.md"
               }
             }
           }
@@ -129,10 +128,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6176d6e55bb58bf5",
+  "active": "b88cb55da20542bc",
   "lastOpenFiles": [
     "Templates.md",
     "OOP.md",
-    "Function Overloading.md"
+    "Function Overloading.md",
+    "Iterators.md",
+    "Containers.md"
   ]
 }
