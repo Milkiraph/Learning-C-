@@ -7,12 +7,8 @@
         "id": "1b743dd828324689",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Iterators.md",
-            "mode": "preview",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Iterators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Iterators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,22 +110,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Iterators.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "6176d6e55bb58bf5",
+  "active": "1b743dd828324689",
   "lastOpenFiles": [
-    "Iterators.md",
     "Containers.md",
+    "Iterators.md",
     "Function Overloading.md",
     "OOP.md",
     "Templates.md"
